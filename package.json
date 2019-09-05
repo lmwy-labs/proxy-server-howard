@@ -1,0 +1,22 @@
+{
+  "name": "proxy-server-howard",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmwy-labs/proxy-server-howard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmwy-labs/proxy-server-howard/issues"
+  },
+  "homepage": "https://github.com/lmwy-labs/proxy-server-howard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
