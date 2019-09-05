@@ -2,11 +2,17 @@
 <head>
 </head>
 <body>
-  <h1>OpenTable</h1>
-</body>
+  <div id="app"></div>
   <div id="gallery"></div>
-  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-  <script src="http://localhost:3001/restaurants/r1/main.js"></script>
+  <div id="review"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+  <script src="http://localhost:3001/restaurants/rid/bundle.js"></script>
+  <script src="http://localhost:3002/restaurants/rid/main.js"></script>
+  <script src="http://localhost:3003/restaurants/rid/bundle.js"></script>
+  <script>
+    ReactDOM.render(React.createElement(Gallery), document.getElementById('gallery'));
+  </script>
 </body>
 </html>
